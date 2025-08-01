@@ -1,39 +1,72 @@
 <!DOCTYPE html>
-<head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/>
-	<style>
-	#input {
-		display: block;
-		font-size: 12pt;
-		padding-top: 0.5em;
-		padding-left: 0.1em;
-		font-family: monospace;
-	}
-	#button {
-		margin-top: 1em;
-		width: 120px;
-		height: 50px;
-		font-size: 14pt;
-	}
-	#output {
-		margin: 20px;
-	}
-	</style>
-</head>
-<body>
-	<textarea id="input" type="textarea" rows=15, cols=80 spellcheck="false">
-# Maxwell's Equations
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      foo
+      <span class="katex"
+        ><span class="katex-mathml"
+          ><math xmlns="http://www.w3.org/1998/Math/MathML"
+            ><semantics
+              ><mrow><mn>1</mn><mo>∗</mo><mi>i</mi><mo>∗</mo><mn>1</mn></mrow
+              ><annotation encoding="application/x-tex"
+                >1 *i* 1</annotation
+              ></semantics
+            ></math
+          ></span
+        ><span class="katex-html" aria-hidden="true"
+          ><span class="base"
+            ><span class="strut" style="height: 0.6444em"></span
+            ><span class="mord">1</span
+            ><span class="mspace" style="margin-right: 0.2222em"></span
+            ><span class="mbin">∗</span
+            ><span class="mspace" style="margin-right: 0.2222em"></span></span
+          ><span class="base"
+            ><span class="strut" style="height: 0.6595em"></span
+            ><span class="mord mathnormal">i</span
+            ><span class="mspace" style="margin-right: 0.2222em"></span
+            ><span class="mbin">∗</span
+            ><span class="mspace" style="margin-right: 0.2222em"></span></span
+          ><span class="base"
+            ><span class="strut" style="height: 0.6444em"></span
+            ><span class="mord">1</span></span
+          ></span
+        ></span
+      >
+      bar
+    </p>
+    <hr />
 
-
-equation | description
-----------|------------
-$\nabla \cdot \vec{\mathbf{B}}  = 0$ | divergence of $\vec{\mathbf{B}}$ is zero
-$\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t}  = \vec{\mathbf{0}}$ |  curl of $\vec{\mathbf{E}}$ is proportional to the rate of change of $\vec{\mathbf{B}}$
-$\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} = \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} = 4 \pi \rho$ | _wha?_
-
-![electricity](http://i.giphy.com/Gty2oDYQ1fih2.gif)</textarea>
-	<button id="button">Mathdown!</button>
-	<div id="output" class="markdown-body"></div>
-	<script src="./bundle.js"></script>
-</body>
+    <p>
+      foo
+      <span class="katex"
+        ><span class="katex-mathml"
+          ><math
+            ><semantics
+              ><mrow><mn>1</mn><mo>∗</mo><mi>i</mi><mo>∗</mo><mn>1</mn></mrow
+              ><annotation encoding="application/x-tex"
+                >1 *i* 1</annotation
+              ></semantics
+            ></math
+          ></span
+        ><span class="katex-html" aria-hidden="true"
+          ><span class="strut" style="height: 0.65952em"></span
+          ><span
+            class="strut bottom"
+            style="height: 0.65952em; vertical-align: 0em"
+          ></span
+          ><span class="base textstyle uncramped"
+            ><span class="mord mathrm">1</span><span class="mbin">∗</span
+            ><span class="mord mathit">i</span><span class="mbin">∗</span
+            ><span class="mord mathrm">1</span></span
+          ></span
+        ></span
+      >
+      bar
+    </p>
+  </body>
+</html>
