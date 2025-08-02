@@ -3,10 +3,10 @@ import { fileURLToPath } from "node:url";
 
 import katex from "katex";
 import MarkdownIt from "markdown-it-enhancer";
+import { load } from "markdown-it-testgen-for-enhancer";
 import { expect, it } from "vitest";
 
 import { math } from "../src";
-import { load } from "./markdown-it-testgen";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // ((tape = require("tape")),
