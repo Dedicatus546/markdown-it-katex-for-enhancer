@@ -52,11 +52,11 @@ importers:
         specifier: '>=13.0.1'
         version: 14.1.0
       markdown-it-enhancer:
-        specifier: 14.1.1050
-        version: 14.1.1050
+        specifier: ^14.1.1070
+        version: 14.1.1070
       markdown-it-testgen-for-enhancer:
         specifier: ^0.1.1026
-        version: 0.1.1026(markdown-it-enhancer@14.1.1050)(vitest@3.2.4)
+        version: 0.1.1026(markdown-it-enhancer@14.1.1070)(vitest@3.2.4)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -1246,10 +1246,9 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  markdown-it-enhancer@14.1.1050:
-    resolution: {integrity: sha512-6v6Su9rohxUdp2tmM0F4GRD3sw1C7cwN+RJTqm1jTNQO+cOYBwp+uNeWFi5/DJ7B1GAivAujG2zCo5nwznV+bA==}
+  markdown-it-enhancer@14.1.1070:
+    resolution: {integrity: sha512-DY0cg2YpmJqDgqU4AgxLtsCDWTBk+zaau0a52JqZeTEbiEzJ7bo+yO86FB4jhCW+yRkontEKLjunq9SJi8xfew==}
     engines: {node: '>=20'}
-    hasBin: true
 
   markdown-it-testgen-for-enhancer@0.1.1026:
     resolution: {integrity: sha512-hlaVPUKPOJIv+h1hW+hvWhWdebO49D5l0RIAHCqW/LbuKjOlMHk/g6BhRKKTEbyf1Q1zKR0qZw9c1rQkTqg5rg==}
@@ -2905,19 +2904,18 @@ snapshots:
     dependencies:
       semver: 7.7.2
 
-  markdown-it-enhancer@14.1.1050:
+  markdown-it-enhancer@14.1.1070:
     dependencies:
-      argparse: 2.0.1
       entities: 6.0.1
       linkify-it: 5.0.0
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  markdown-it-testgen-for-enhancer@0.1.1026(markdown-it-enhancer@14.1.1050)(vitest@3.2.4):
+  markdown-it-testgen-for-enhancer@0.1.1026(markdown-it-enhancer@14.1.1070)(vitest@3.2.4):
     dependencies:
       js-yaml: 4.1.0
-      markdown-it-enhancer: 14.1.1050
+      markdown-it-enhancer: 14.1.1070
       vitest: 3.2.4(@types/node@24.1.0)(@vitest/ui@3.2.4)(jiti@2.5.1)
 
   markdown-it@14.1.0:

@@ -52,7 +52,7 @@
     "jiti": "^2.5.1",
     "js-yaml": "^4.1.0",
     "markdown-it": ">=13.0.1",
-    "markdown-it-enhancer": "14.1.1050",
+    "markdown-it-enhancer": "^14.1.1070",
     "markdown-it-testgen-for-enhancer": "^0.1.1026",
     "typescript": "5.8.3",
     "typescript-eslint": "^8.38.0",
@@ -61,7 +61,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "markdown-it-enhancer": ">=14.1.1050"
+    "markdown-it-enhancer": ">=14.1.1070"
   },
   "engines": {
     "node": ">=20"
