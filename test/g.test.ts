@@ -2,7 +2,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import katex from "katex";
-import MarkdownIt from "markdown-it-enhancer";
+import { MarkdownIt } from "markdown-it-enhancer";
 import { load } from "markdown-it-testgen-for-enhancer";
 import { expect, it } from "vitest";
 
@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 //   (testLoad = require("markdown-it-testgen").load),
 //   (mdk = require("../index")));
 
-const md = MarkdownIt();
+const md = new MarkdownIt();
 
 await md.use(math, {}).isReady();
 
